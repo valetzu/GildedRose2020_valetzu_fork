@@ -173,13 +173,5 @@ public class GildedRoseTest {
 		GildedRose inn = new GildedRose();
 		List<Item> items = inn.getItems();
 		inn.oneDay();
-	}
-	/*
-	@Test
-	public void onePassThroughLoopTest() {
-		GildedRose inn = new GildedRose();
-		inn.setItem(new Item("Conjured Mana Cake", -1, 6));
-		List<Item> items = inn.getItems();
-		inn.oneDay();
-	} */	
+	}	
 }
